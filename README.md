@@ -15,17 +15,17 @@ Python 3.0 (Only for automated installation)
 ###Installation
 
 Clone the repository in a temporary directory:
-
-'git clone https://github.com/nosduco/elegance-orange.git'
-
+```
+git clone https://github.com/nosduco/elegance-orange.git
+```
 Change into the directory:
-
-'cd elegance-orange'
-
+```
+cd elegance-orange
+```
 Run automated python installer:
-
-'python install.py'
-
+```
+python install.py    
+```
 Theme will now be installed into your 'gnome-shell' themes directory.
 
 To set the theme, choose the theme via the Gnome Tweak Tool, or run the following command:
