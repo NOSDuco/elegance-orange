@@ -53,7 +53,7 @@ Create a zip and load the zip from Gnome Tweak Tool.
 
 Zip the file either using a file explorer or the command below:
 ```
-zip -r elegance-organge.zip elegance-orange
+zip -r elegance-orange.zip elegance-orange
 
 ```
 
