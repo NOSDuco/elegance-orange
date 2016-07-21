@@ -29,9 +29,9 @@ python install.py
 Theme will now be installed into your 'gnome-shell' themes directory.
 
 To set the theme, choose the theme via the Gnome Tweak Tool, or run the following command:
-
-'gsettings set org.gnome.shell.extensions.user-theme name 'elegance-orange'
-
+```
+gsettings set org.gnome.shell.extensions.user-theme name 'elegance-orange'
+```
 ### Bugs, Fixes, and Suggestions
 
 Please submit [here](https://github.com/nosduco/elegance-orange/issues).
