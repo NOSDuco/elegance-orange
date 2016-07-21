@@ -10,7 +10,7 @@ Gnome Shell 3.12+
 
 Roboto Medium Font (should faltback to default if not present)
 
-Python 3.0 (Only for automated installation)
+Python 3.0+ (Only for automated installation)
 
 ###Installation
 
@@ -23,6 +23,7 @@ Change into the directory:
 cd elegance-orange
 ```
 Run automated python installer:
+(If you wish to install manually, follow the method beyond this section.)
 ```
 python install.py    
 ```
@@ -32,6 +33,40 @@ To set the theme, choose the theme via the Gnome Tweak Tool, or run the followin
 ```
 gsettings set org.gnome.shell.extensions.user-theme name 'elegance-orange'
 ```
+
+###Manual Installation
+
+
+Clone the repository in a temporary directory:
+```
+git clone https://github.com/nosduco/elegance-orange.git
+```
+Change into the directory:
+```
+cd elegance-orange
+```
+Two methods exist beyond this point:
+
+####Method One
+
+Create a zip and load the zip from Gnome Tweak Tool.
+
+Zip the file either using a file explorer or the command below:
+```
+zip -r elegance-organge.zip elegance-orange
+
+```
+
+Open Gnome Tweak Tool, navigate to Appearance, and under the "Shell theme" line select to open a theme/zip and choose the zip in the current directory.
+
+Proceed to then select it from the drop down menu.
+
+####Method Two
+
+Copy all the files to the theme directory manually.
+
+(Will add later)
+
 ### Bugs, Fixes, and Suggestions
 
 Please submit [here](https://github.com/nosduco/elegance-orange/issues).
