@@ -848,6 +848,7 @@ StScrollBar StButton#hhandle:active {
 }
 
     .panel-button:hover {
+        font-weight: none;
     color: rgba(255,255,255,0.9);
     background-image: none;
     background-gradient-direction: none;
@@ -1325,6 +1326,10 @@ StScrollBar StButton#hhandle:active {
     text-shadow: 0 0 transparent;
 }
 
+.app-well-app-running-dot {
+    background-color: #f57900;
+}
+
 .app-well-app.app-folder > .overview-icon {
     color: rgba(255,255,255,1.0);
     background-image: none;
@@ -1779,6 +1784,24 @@ StScrollBar StButton#hhandle:active {
     color: #999999;
 }
 
+.notification-banner {
+    font-size: 11pt;
+    width: 34em;
+    color: rgba(255,255,255,1.0);
+    border-radius: 1px 1px 0 0;
+    background-image: none;
+    background-gradient-direction: none;
+    background-color: rgba(9,4,0,0.8);
+    background-gradient-start: rgba(9,4,0,0.8);
+    background-gradient-end: rgba(9,4,0,0.8);
+    border: 1px solid rgba(0,0,0,0.8);
+    border-bottom: 0;
+    padding: 8px 8px 4px 8px;
+    spacing-rows: 4px;
+    spacing-columns: 10px;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+}
+
 .notification {
     color: rgba(255,255,255,1.0);
     border-radius: 1px 1px 0 0;
@@ -1818,6 +1841,7 @@ StScrollBar StButton#hhandle:active {
 .notification-with-image {
     min-height: 159px;
 }
+*/
 
 .summary-boxpointer {
     color: rgba(255,255,255,1.0);
@@ -3053,3 +3077,45 @@ StScrollBar StButton#hhandle:active {
     -boxpointer-gap: 4px;
     -arrow-rise: 0px;
 }
+
+/* Message List */
+
+.message-list-clear-button.button {
+    background-color: transparent;
+    margin: 1.5em 1.5em 0;
+    border: none;
+    border-top: none;
+}
+
+.message-list-clear-button.button:hover {
+    background-color: rgba(255, 135, 0, 0.8);
+    border-top: none;
+}
+
+.message-list-clear-button.button:focus {
+    background-color: rgba(255, 135, 0, 0.8);
+    border-top: none;
+}
+
+.message-list-clear-button.button:active {
+    background-color: #f57900;
+    border-top: none;
+}
+
+.message {
+    border: 0;
+    border-radius: 0;
+}
+
+.message:hover {
+    background-color: rgba(255, 135, 0, 0.4);
+    border: 0;
+    border-radius: 0;
+}
+
+.message:focus {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
